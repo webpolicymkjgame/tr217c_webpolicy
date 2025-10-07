@@ -21,8 +21,8 @@ function Header() {
           <div className="container header-container">
             <div className="header-left">
               <div className="logo-wrapper">
-                <img src={logoImg} alt="GENERATION FOR AFRICAN RELIEF AND DEVELOPMENT" className="logo-img" />
-                <span className="studio-name">GENERATION FOR AFRICAN RELIEF AND DEVELOPMENT</span>
+                <img src={logoImg} alt="HealthCareTeam Studio" className="logo-img" />
+                <span className="studio-name">HealthCareTeam Studio</span>
               </div>
             </div>
 
@@ -43,7 +43,7 @@ function HomePage() {
     {
       name: 'TR217C',
       image: currency,
-      link: 'https://play.google.com/store/apps/details?id='
+      link: 'https://play.google.com/store/apps/details?id=com.budgetplanner.money.moneyplanner.expenses'
     }
   ];
 
@@ -52,8 +52,8 @@ function HomePage() {
       <section id="about" className="section about">
         <div className="container about-row">
           <div className="about-text-container">
-            <h2 className="highlight-title">GENERATION FOR AFRICAN RELIEF AND DEVELOPMENT – Welcome Aboard</h2>
-            <p className="about-text">GENERATION FOR AFRICAN RELIEF AND DEVELOPMENT is a forward-thinking mobile app studio committed to crafting innovative, dependable, and easy-to-use applications. Our mission is to blend creativity with functionality, delivering solutions that span across casual gaming, productivity, lifestyle, and education. Each app we develop is carefully designed with user experience in mind — offering intuitive navigation, thoughtful details, and practical value — to make everyday life simpler, smarter, and more enjoyable for users around the globe.
+            <h2 className="highlight-title">HealthCareTeam Studio – Welcome Aboard</h2>
+            <p className="about-text">HealthCareTeam Studio is a forward-thinking mobile app studio committed to crafting innovative, dependable, and easy-to-use applications. Our mission is to blend creativity with functionality, delivering solutions that span across casual gaming, productivity, lifestyle, and education. Each app we develop is carefully designed with user experience in mind — offering intuitive navigation, thoughtful details, and practical value — to make everyday life simpler, smarter, and more enjoyable for users around the globe.
             </p>
           </div>
           <div className="about-img-container">
@@ -111,7 +111,7 @@ function App() {
         </Routes>
         <footer className="footer">
           <div className="container text-center">
-            <p>&copy; {new Date().getFullYear()} GENERATION FOR AFRICAN RELIEF AND DEVELOPMENT. All rights reserved.</p>
+            <p>&copy; {new Date().getFullYear()} HealthCareTeam Studio. All rights reserved.</p>
           </div>
         </footer>
       </div>
